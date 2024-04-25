@@ -41,10 +41,10 @@ function About() {
           <ul>
             {Resumes.education.details.map(detail => (
               <li key={detail.id}>
-                <h5>{detail.year}</h5> <br />
                 <h4>{detail.degree}</h4>
                 <h4>{detail.institution}</h4>
-                <h4>{detail.location}</h4>
+                <h4>{detail.location}</h4> <br />
+                <h5>{detail.year}</h5> <br />
               </li>
             ))}
           </ul>
