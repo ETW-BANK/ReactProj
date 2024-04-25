@@ -10,7 +10,7 @@ const Portfolio = () => {
 
     useEffect(() => {
         const delay = setTimeout(() => {
-            fetch("https://api.github.com/users/dinozoff1981/repos")
+            fetch("https://api.github.com/users/ETW-BANK/repos")
                 .then((response) => response.json())
                 .then((result) => {
                     setRepos(result);
